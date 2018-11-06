@@ -18,6 +18,7 @@ module.exports = {
     // Install GNU `sed`, overwriting the built-in `sed`
     // so we can do "sed -i 's/foo/bar/' file" instead of "sed -i '' 's/foo/bar/' file"
     'gnu-sed --with-default-names',
+    'grc',
     // better, more recent grep
     'homebrew/dupes/grep',
     // https://github.com/jkbrzt/httpie
@@ -53,38 +54,38 @@ module.exports = {
     'docker', // docker for mac
     //'dropbox',
     //'evernote',
-    'flux',
+    // 'flux',
     'gpg-suite',
     //'ireadfast',
     'iterm2',
     'little-snitch',
-    'macbreakz',
+    // 'macbreakz',
     'micro-snitch',
     'signal',
     //'macvim',
-    'sizeup',
+    // 'sizeup',
     //'sketchup',
-    'slack',
+    // 'slack',
     'the-unarchiver',
     //'torbrowser',
     //'transmission',
-    'visual-studio-code',
+    // 'visual-studio-code',
     //'vlc',
     'xquartz'
   ],
   gem: [
   ],
   npm: [
-    'antic',
-    'buzzphrase',
-    'eslint',
-    'instant-markdown-d',
+    // 'antic',
+    // 'buzzphrase',
+    // 'eslint',
+    // 'instant-markdown-d',
     // 'generator-dockerize',
     // 'gulp',
-    'npm-check-updates',
-    'prettyjson',
-    'trash',
-    'vtop'
+    // 'npm-check-updates',
+    // 'prettyjson',
+    // 'trash',
+    // 'vtop'
     // ,'yo'
   ]
 };
